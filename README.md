@@ -43,12 +43,12 @@ int main()
 - syntax: gcc filename
 - command: gcc test1.c
 
-# Changing assembly file name
+## Changing assembly file name
 To change the output file name, use the below syntax
 - syntax: gcc filename -o outputfilename
 - command: gcc test1.c -o test1
 
-# Execute Assembly File
+## Execute Assembly File
 To execute the output file, use the below syntax
 - syntax: ./outputfilename
 - command: ./a.exe or ./test1.exe
