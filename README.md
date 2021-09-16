@@ -1,11 +1,11 @@
 ## Overview of programming
-Program is the sequence of instruction to perform some task in the computer
-Programming is the process of writing program 
+- Program is the sequence of instruction to perform some task in the computer
+- Programming is the process of writing program 
 
 ## Stages of executing program
-High level language is transformed to Assembly level language
-Assembly level language is transformed to Machine level language
-Assembly level language is said to be low level language 
+- High level language is transformed to Assembly level language
+- Assembly level language is transformed to Machine level language
+- Assembly level language is said to be low level language 
 High Level language is a source code
 Assembly language is a object code
 Machine level language is machine code
