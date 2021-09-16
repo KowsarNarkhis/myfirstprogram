@@ -2,6 +2,6 @@
 
 int main()
 {
-    printf(" Alhamdulilah this is my first program");
+    printf("This is my first program");
     return 0;
 }
