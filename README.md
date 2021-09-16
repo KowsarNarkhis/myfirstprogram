@@ -23,7 +23,7 @@
 - Difference between compiler and interpreter is that compiler transforms entire  program from High level language to low level language whereas interpreter transforms line by line program from high level language to low level language
 - Assembler is used for transforming assembly code to Machine code 
 
-## Applications for pragramming
+## Applications for programming
 - Install GCC compliler for transforming High level language to low level language
 - Install Visual studio code
 - Install GIT
@@ -40,16 +40,16 @@ int main()
 }
 
 - Open terminal (ctrl+j) and use the below syntax, an assembly file will be generated (in this a.exe is default)
-- syntax: gcc <filename>
+- syntax: gcc filename
 - command: gcc test1.c
 
 # Changing assembly file name
 To change the output file name, use the below syntax
-- syntax: gcc <filename> -o <outputfilename>
+- syntax: gcc filename -o outputfilename
 - command: gcc test1.c -o test1
 
 # Execute Assembly File
 To execute the output file, use the below syntax
-- syntax: ./<outputfilename>
+- syntax: ./outputfilename
 - command: ./a.exe or ./test1.exe
 
