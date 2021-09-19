@@ -33,11 +33,13 @@
 - Consider file name as test1.c
  #include <stdio.h>
 
+<code>
 int main()
 {
     printf("This is my first program");
     return 0,
 }
+</code>
 
 - Open terminal (ctrl+j) and use the below syntax, an assembly file will be generated (in this a.exe is default)
 - syntax: gcc filename
