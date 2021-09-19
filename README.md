@@ -31,9 +31,9 @@
 ## Steps for programming
 - Create a new file in visual studio code for each programming
 - Consider file name as test1.c
- #include <stdio.h>
 
 <code>
+#include <stdio.h>
 int main()
 {
     printf("This is my first program");
