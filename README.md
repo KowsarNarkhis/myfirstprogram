@@ -37,7 +37,7 @@
 int main()
 {
     printf("This is my first program");
-    return 0,
+    return 0;
 }
 </code>
 
@@ -54,4 +54,8 @@ To change the output file name, use the below syntax
 To execute the output file, use the below syntax
 - syntax: ./outputfilename
 - command: ./a.exe or ./test1.exe
+
+
+
+
 
