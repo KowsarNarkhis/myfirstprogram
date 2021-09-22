@@ -32,30 +32,49 @@
 - Create a new file in visual studio code for each programming
 - Consider file name as test1.c
 
-<code>
+```
 #include <stdio.h>
 int main()
 {
     printf("This is my first program");
     return 0;
 }
-</code>
+```
 
 - Open terminal (ctrl+j) and use the below syntax, an assembly file will be generated (in this a.exe is default)
-- syntax: gcc filename
-- command: gcc test1.c
+- syntax: ``` gcc filename ```
+- command: ``` gcc test1.c ```
 
 ## Changing assembly file name
 To change the output file name, use the below syntax
-- syntax: gcc filename -o outputfilename
-- command: gcc test1.c -o test1
+- syntax: ``` gcc filename -o outputfilename ```
+- command: ``` gcc test1.c -o test1 ```
 
 ## Execute Assembly File
 To execute the output file, use the below syntax
-- syntax: ./outputfilename
-- command: ./a.exe or ./test1.exe
+- syntax: ``` ./outputfilename ```
+- command: ``` ./a.exe or ./test1.exe ```
 
+## Structure of C program
+- Program file has header section and main function
+- Header section contains declaration of header files
+- Header section uses directives to declare header files eg: #include, #define
+- Directives are handled by preprocessor, which is an module processed before compilation
+- Header files are: stdio.h, conio.h, math.h etc... 
+- Header file contains Prototypes of library functions. Eg: stdio.h has printf, scanf etc... functions
+- Header file declaration - eg: ``` #include <stdio.h> ```
+- Prototype of the function: [return_type] [function_name]([list_of_arguments])
+- Function contains above prototype and has body enclosed by { ... }
+- Function eg:
 
+```
+int add()
+{
+    printf("Test");
+    return 0;
+}
+```
 
-
+- Every program starts with the main function as an entry point for execution
+- Every statement will end with ``` ; ```
 
