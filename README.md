@@ -1,3 +1,4 @@
+
 ## Overview of programming
 - "Program" is the sequence of instruction to perform some task in the computer
 - "Programming" is the process of writing program 
@@ -77,24 +78,3 @@ int add()
 
 - Every program starts with the main function as an entry point for execution
 - Every statement will end with ``` ; ```
-
-## Programming language
-- Program is formed using statement, statement is formed using constants, keywords and variable, these all are formed using characters, digits and symbols
-
-## Constants
-- constants means values that does not change  during program execution
-- Constants are classified as Primary Constants and Secondary Contants
-## Primary Constants
-- Primary constants are further classified as "Integer constants", "Real constants", and "Character constants".
-- Integer constants are values like (12,52,-471 etc...)
-- Real constants are values with decimals or any value which is huge like (52.2, 945.2,, 5.E7= 5*10 to the power 7)
-- Character constants are characters with single quote ('h','m' etc...)
-## Secondary Constants
-- All primary constants are taken together to form secondary constants
-- Array, Pointer, Structure etc are secondary constants
-- Initializing an array with integer contants like {52,-251 etc..}
-
-## Keywords
-- Keyword means whose meaning is already explained to the C compiler
-- There are 32 keywords explained to the compiler
-- eg: Int, float, for, break etc..
